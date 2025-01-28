@@ -86,11 +86,13 @@ Validación de selecciones y almacenamiento en localStorage.
 CRUD:
 Se probaron las operaciones de creación, lectura, actualización y eliminación.
 Instrucciones de Ejecución
+
 Requisitos Previos:
 Node.js 
 Angular 19
 .NET Core SDK version 8
 SQL Server express
+
 Pasos:
 Clonar el repositorio
 Configurar la cadena de conexión a la base de datos en el archivo appsettings.json.
@@ -98,5 +100,7 @@ Verificar que los paquetes necesarios de Nuget estén instalados
 Ejecutar el backend: dotnet run.
 Instalar dependencias en el frontend
 Ejecutar el frontend: ng serve.
+
+
 Conclusiones
 El proyecto implementa con éxito un sistema completo para la configuración y gestión de cookies, cumpliendo con los requisitos funcionales y técnicos especificados. Aún quedan por completar detalles como la responsividad total del sitio, ya que hay componentes que presentan ciertos desperfectos al momento de variar el tamaño de las pantallas, lo que produce que no sean completamente agradables a la lectura. La mayor dificultad y debilidad en la ejecución de toda esta prueba recae en la responsividad y el diseño, la cual se comprende es mejorable en todo sentido, aun cuando se posee un conocimiento básico de css o html hay detalles que se escapan de lo conocido, por otro lado se vislumbra que disponer de un diseño establecido facilita el tiempo de ejecución del proyecto. 
